@@ -1,0 +1,47 @@
+.layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+header{
+    display: flex;
+    background-color: #1E52B4;
+    height: 461px;
+    width: 100%;
+    position: static;
+    left: 0;
+    right: 0;
+}
+
+
+.Logo{
+    display: flex;
+    height: 23px;
+    width: 156px;
+    margin-top: 29px;
+    margin-left: 72px;
+}
+
+.spans{
+   
+    display: flex;
+    gap: 80px;
+    align-items: space-between;
+    margin-top: 35px;
+    color:#fff;
+    margin-right: 72px;
+    
+}
+
+header Andar{
+    
+}
