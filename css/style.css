@@ -15,7 +15,7 @@ nav{
 header{
     display: flex;
     background-color: #1E52B4;
-    height: 461px;
+    height: 80px;
     width: 100%;
     position: static;
     left: 0;
@@ -27,21 +27,108 @@ header{
     display: flex;
     height: 23px;
     width: 156px;
-    margin-top: 29px;
+    margin-top: 23px;
     margin-left: 72px;
+    
 }
 
 .spans{
-   
+   position: fixed;
     display: flex;
-    gap: 80px;
-    align-items: space-between;
-    margin-top: 35px;
+    gap: 60px;
+    
+    margin-top: 31px;
     color:#fff;
-    margin-right: 72px;
+    margin-right: 22px;
+    margin-left: 1020px;
+}
+section{
+    background-color: #1E52B4;
+    height: 361px;
+}
+
+.Andar{
+    position: fixed;
+    display: flex;
+    
+    align-items: center;
+    height: 334px;
+    
+    width: 100%;
+   margin-bottom: 50px;
+    margin-left:1033px ;
+}
+.header-bottom{
+    color: #fff;
+    display: flex;
+    margin-right: 2500px;
+   
+    height: 361px;
+    width: 100%;
+}
+.mid{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 435px;
+    height: 130px;
+   
+    
+   
+}
+main{
+    margin-top: -50px;
+    width: 100%;
+}
+.barra{
+    
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 8px ;
+    margin-left: 20%;
+    box-shadow: 4px 4px 10px black ;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+    
     
 }
 
-header Andar{
+#local{
+    height: 16px;
+    width: 12px;
+}
+.input-box{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px dashed black;
+    height: 55px;
+    width: 210px;
     
+}
+
+.barra button{
+    width: 160px;
+    height: 45px;
+    background-color: #009C3B;
+    border-radius: 8px;
+}
+.input-box input{
+    border: none;
+}
+article{
+margin-top: 50px;
+        width: 285px;
+        height: 387px;
+        background-image: linear-gradient(to bottom, rgba(37, 26, 52, 0.3), rgba(5, 1, 12, 0.8));
+        margin-right: 10px;
+        border-radius: 8px;
 }
