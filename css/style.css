@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
 .layout-grid {
     width: 90%;
     height: 100%;
@@ -14,7 +21,7 @@ nav{
 
 header{
     display: flex;
-    background-color: #1E52B4;
+    background: linear-gradient(95.24deg, #1E52B4 -10.53%, #002777 103.54%);
     height: 80px;
     width: 100%;
     position: static;
@@ -33,58 +40,69 @@ header{
 }
 
 .spans{
-   position: fixed;
+   
     display: flex;
     gap: 60px;
     
     margin-top: 31px;
     color:#fff;
     margin-right: 22px;
-    margin-left: 1020px;
+    margin-left: 720px;
 }
 section{
-    background-color: #1E52B4;
+    background: linear-gradient(95.24deg, #1E52B4 -10.53%, #002777 103.54%);
+
     height: 361px;
 }
 
 .Andar{
-    position: fixed;
+    
     display: flex;
     
     align-items: center;
     height: 334px;
     
     width: 100%;
-   margin-bottom: 50px;
-    margin-left:1033px ;
+   margin-bottom: 70px;
+    margin-left:450px ;
 }
 .header-bottom{
     color: #fff;
     display: flex;
     margin-right: 2500px;
-   
+   align-items: center;
     height: 361px;
     width: 100%;
 }
 .mid{
-    position: relative;
+    
     display: flex;
-    align-items: center;
+    
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    margin-left: 120px;
+    margin-bottom: 130px;
     width: 435px;
-    height: 130px;
-   
+    height: 120px;
+   gap: 30px;
     
    
 }
+.mid h1{
+    text-align: center;
+    margin-left: -40px;
+    width: 500px;
+    height: 34px;
+}
+.mid h2{
+    width: 500px;
+    height: 81px;
+}
 main{
-    margin-top: -50px;
+    
     width: 100%;
 }
 .barra{
-    
+    margin-top: -50px;
     display: flex;
     width: 60%;
     justify-content: space-around;
@@ -124,11 +142,94 @@ main{
 .input-box input{
     border: none;
 }
+.first{
+    flex-direction: row;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: -90px;
+}
+
 article{
+   
 margin-top: 50px;
         width: 285px;
         height: 387px;
-        background-image: linear-gradient(to bottom, rgba(37, 26, 52, 0.3), rgba(5, 1, 12, 0.8));
-        margin-right: 10px;
+       
+        
         border-radius: 8px;
 }
+article img{
+    border-radius: 10px;
+}
+article h3{
+    margin-top: 10px;
+}
+article p{
+    margin-top: 10px;
+    width: 260px;
+    height: 60px;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 310px;
+    margin-top: 150px;
+}
+.entry h1{
+    height:85px;
+    width: 500px;
+    font-size: 28px;
+    line-height: 42px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.entry span{
+    width: 455px;
+    height: 60px;
+    font-size: 20px;
+    line-height:  30px;
+}
+footer{
+    display: flex;
+    background: linear-gradient(90deg, #009C3B 0%, #009538 100%);
+    margin-top: 100px;
+    width: 100%;
+    height: 163px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+footer h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+footer p{
+    font-size:16px;
+}
+.mini-footer{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #FFDF00;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        width: 100%;
+        flex-direction: row;
+    }
+    .spans{
+        display: none;
+    }
+    .header-bottom{
+        width: 100%;
+    }
+
+    }
